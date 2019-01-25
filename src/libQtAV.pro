@@ -487,6 +487,7 @@ SOURCES += \
     output/video/VideoRenderer.cpp \
     output/video/VideoOutput.cpp \
     output/video/QPainterRenderer.cpp \
+    output/video/PreviewRenderer.cpp \
     output/AVOutput.cpp \
     output/OutputSet.cpp \
     Statistics.cpp \
@@ -521,6 +522,7 @@ SDK_HEADERS *= \
     QtAV/Frame.h \
     QtAV/FrameReader.h \
     QtAV/QPainterRenderer.h \
+    QtAV/PreviewRenderer.h \
     QtAV/Packet.h \
     QtAV/AVError.h \
     QtAV/AVPlayer.h \
