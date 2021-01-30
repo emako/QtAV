@@ -17,7 +17,7 @@ PreviewRenderer::PreviewRenderer(QObject *parent)
 
 VideoRendererId PreviewRenderer::id() const
 {
-    return VideoRendererId_Dummy;
+    return 0;
 }
 
 bool PreviewRenderer::receiveFrame(const VideoFrame &frame)
